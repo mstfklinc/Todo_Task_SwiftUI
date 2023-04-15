@@ -16,6 +16,13 @@
 		FAF7E7FF29EABA98008597D8 /* Todo_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7FE29EABA98008597D8 /* Todo_TaskTests.swift */; };
 		FAF7E80929EABA98008597D8 /* Todo_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E80829EABA98008597D8 /* Todo_TaskUITests.swift */; };
 		FAF7E80B29EABA98008597D8 /* Todo_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E80A29EABA98008597D8 /* Todo_TaskUITestsLaunchTests.swift */; };
+		FAF7E81929EABD47008597D8 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E81829EABD47008597D8 /* AddButton.swift */; };
+		FAF7E81B29EABD53008597D8 /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E81A29EABD53008597D8 /* AddToDoView.swift */; };
+		FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E81F29EACDA1008597D8 /* BottomBar.swift */; };
+		FAF7E82529EAD47F008597D8 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82429EAD47F008597D8 /* Group.swift */; };
+		FAF7E82729EAD48A008597D8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82629EAD48A008597D8 /* Color.swift */; };
+		FAF7E82929EAD494008597D8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82829EAD494008597D8 /* Todo.swift */; };
+		FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		FAF7E80429EABA98008597D8 /* Todo_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF7E80829EABA98008597D8 /* Todo_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_TaskUITests.swift; sourceTree = "<group>"; };
 		FAF7E80A29EABA98008597D8 /* Todo_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAF7E81829EABD47008597D8 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		FAF7E81A29EABD53008597D8 /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		FAF7E81F29EACDA1008597D8 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		FAF7E82429EAD47F008597D8 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		FAF7E82629EAD48A008597D8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FAF7E82829EAD494008597D8 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +112,11 @@
 		FAF7E7E729EABA96008597D8 /* Todo_Task */ = {
 			isa = PBXGroup;
 			children = (
+				FAF7E82129EAD458008597D8 /* Extensions */,
+				FAF7E81E29EACD92008597D8 /* Components */,
 				FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */,
-				FAF7E7EA29EABA96008597D8 /* ContentView.swift */,
+				FAF7E81729EABCFF008597D8 /* View */,
 				FAF7E7EC29EABA98008597D8 /* Assets.xcassets */,
-				FAF7E7F129EABA98008597D8 /* Persistence.swift */,
 				FAF7E7F329EABA98008597D8 /* Todo_Task.xcdatamodeld */,
 				FAF7E7EE29EABA98008597D8 /* Preview Content */,
 			);
@@ -111,6 +126,7 @@
 		FAF7E7EE29EABA98008597D8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FAF7E7F129EABA98008597D8 /* Persistence.swift */,
 				FAF7E7EF29EABA98008597D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -131,6 +147,35 @@
 				FAF7E80A29EABA98008597D8 /* Todo_TaskUITestsLaunchTests.swift */,
 			);
 			path = Todo_TaskUITests;
+			sourceTree = "<group>";
+		};
+		FAF7E81729EABCFF008597D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E7EA29EABA96008597D8 /* ContentView.swift */,
+				FAF7E81A29EABD53008597D8 /* AddToDoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAF7E81E29EACD92008597D8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E81F29EACDA1008597D8 /* BottomBar.swift */,
+				FAF7E81829EABD47008597D8 /* AddButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FAF7E82129EAD458008597D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E82429EAD47F008597D8 /* Group.swift */,
+				FAF7E82629EAD48A008597D8 /* Color.swift */,
+				FAF7E82829EAD494008597D8 /* Todo.swift */,
+				FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +310,15 @@
 			files = (
 				FAF7E7F229EABA98008597D8 /* Persistence.swift in Sources */,
 				FAF7E7EB29EABA96008597D8 /* ContentView.swift in Sources */,
+				FAF7E81B29EABD53008597D8 /* AddToDoView.swift in Sources */,
+				FAF7E82529EAD47F008597D8 /* Group.swift in Sources */,
+				FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */,
 				FAF7E7F529EABA98008597D8 /* Todo_Task.xcdatamodeld in Sources */,
+				FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */,
+				FAF7E81929EABD47008597D8 /* AddButton.swift in Sources */,
 				FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */,
+				FAF7E82729EAD48A008597D8 /* Color.swift in Sources */,
+				FAF7E82929EAD494008597D8 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

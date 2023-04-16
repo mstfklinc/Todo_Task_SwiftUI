@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */; };
-		FAF7E7EB29EABA96008597D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7EA29EABA96008597D8 /* ContentView.swift */; };
+		FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7EA29EABA96008597D8 /* Home.swift */; };
 		FAF7E7ED29EABA98008597D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E7EC29EABA98008597D8 /* Assets.xcassets */; };
 		FAF7E7F029EABA98008597D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E7EF29EABA98008597D8 /* Preview Assets.xcassets */; };
 		FAF7E7F229EABA98008597D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7F129EABA98008597D8 /* Persistence.swift */; };
@@ -23,6 +23,12 @@
 		FAF7E82729EAD48A008597D8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82629EAD48A008597D8 /* Color.swift */; };
 		FAF7E82929EAD494008597D8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82829EAD494008597D8 /* Todo.swift */; };
 		FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */; };
+		FAF7E83629EC2750008597D8 /* TodoTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83529EC2750008597D8 /* TodoTabScreen.swift */; };
+		FAF7E83829EC2764008597D8 /* ChartTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83729EC2764008597D8 /* ChartTabScreen.swift */; };
+		FAF7E83A29EC2773008597D8 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83929EC2773008597D8 /* SettingsScreen.swift */; };
+		FAF7E83C29EC30E6008597D8 /* PublishGroupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83B29EC30E6008597D8 /* PublishGroupScreen.swift */; };
+		FAF7E83E29EC30FE008597D8 /* PublishTodoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83D29EC30FE008597D8 /* PublishTodoScreen.swift */; };
+		FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83F29EC33AF008597D8 /* GroupIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +51,7 @@
 /* Begin PBXFileReference section */
 		FAF7E7E529EABA96008597D8 /* Todo_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_TaskApp.swift; sourceTree = "<group>"; };
-		FAF7E7EA29EABA96008597D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAF7E7EA29EABA96008597D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FAF7E7EC29EABA98008597D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF7E7EF29EABA98008597D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAF7E7F129EABA98008597D8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -62,6 +68,12 @@
 		FAF7E82629EAD48A008597D8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FAF7E82829EAD494008597D8 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		FAF7E83529EC2750008597D8 /* TodoTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTabScreen.swift; sourceTree = "<group>"; };
+		FAF7E83729EC2764008597D8 /* ChartTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTabScreen.swift; sourceTree = "<group>"; };
+		FAF7E83929EC2773008597D8 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		FAF7E83B29EC30E6008597D8 /* PublishGroupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishGroupScreen.swift; sourceTree = "<group>"; };
+		FAF7E83D29EC30FE008597D8 /* PublishTodoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishTodoScreen.swift; sourceTree = "<group>"; };
+		FAF7E83F29EC33AF008597D8 /* GroupIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,7 @@
 				FAF7E82129EAD458008597D8 /* Extensions */,
 				FAF7E81E29EACD92008597D8 /* Components */,
 				FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */,
+				FAF7E83429EC2610008597D8 /* Screens */,
 				FAF7E81729EABCFF008597D8 /* View */,
 				FAF7E7EC29EABA98008597D8 /* Assets.xcassets */,
 				FAF7E7F329EABA98008597D8 /* Todo_Task.xcdatamodeld */,
@@ -152,8 +165,9 @@
 		FAF7E81729EABCFF008597D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FAF7E7EA29EABA96008597D8 /* ContentView.swift */,
+				FAF7E7EA29EABA96008597D8 /* Home.swift */,
 				FAF7E81A29EABD53008597D8 /* AddToDoView.swift */,
+				FAF7E83F29EC33AF008597D8 /* GroupIconView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +190,18 @@
 				FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAF7E83429EC2610008597D8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E83529EC2750008597D8 /* TodoTabScreen.swift */,
+				FAF7E83729EC2764008597D8 /* ChartTabScreen.swift */,
+				FAF7E83929EC2773008597D8 /* SettingsScreen.swift */,
+				FAF7E83B29EC30E6008597D8 /* PublishGroupScreen.swift */,
+				FAF7E83D29EC30FE008597D8 /* PublishTodoScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,16 +335,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF7E7F229EABA98008597D8 /* Persistence.swift in Sources */,
-				FAF7E7EB29EABA96008597D8 /* ContentView.swift in Sources */,
+				FAF7E83C29EC30E6008597D8 /* PublishGroupScreen.swift in Sources */,
+				FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */,
+				FAF7E83829EC2764008597D8 /* ChartTabScreen.swift in Sources */,
 				FAF7E81B29EABD53008597D8 /* AddToDoView.swift in Sources */,
 				FAF7E82529EAD47F008597D8 /* Group.swift in Sources */,
 				FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */,
 				FAF7E7F529EABA98008597D8 /* Todo_Task.xcdatamodeld in Sources */,
 				FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */,
+				FAF7E83A29EC2773008597D8 /* SettingsScreen.swift in Sources */,
+				FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */,
+				FAF7E83629EC2750008597D8 /* TodoTabScreen.swift in Sources */,
 				FAF7E81929EABD47008597D8 /* AddButton.swift in Sources */,
 				FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */,
 				FAF7E82729EAD48A008597D8 /* Color.swift in Sources */,
 				FAF7E82929EAD494008597D8 /* Todo.swift in Sources */,
+				FAF7E83E29EC30FE008597D8 /* PublishTodoScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

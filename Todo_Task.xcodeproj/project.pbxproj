@@ -24,11 +24,27 @@
 		FAF7E82929EAD494008597D8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82829EAD494008597D8 /* Todo.swift */; };
 		FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */; };
 		FAF7E83629EC2750008597D8 /* TodoTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83529EC2750008597D8 /* TodoTabScreen.swift */; };
-		FAF7E83829EC2764008597D8 /* ChartTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83729EC2764008597D8 /* ChartTabScreen.swift */; };
 		FAF7E83A29EC2773008597D8 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83929EC2773008597D8 /* SettingsScreen.swift */; };
 		FAF7E83C29EC30E6008597D8 /* PublishGroupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83B29EC30E6008597D8 /* PublishGroupScreen.swift */; };
 		FAF7E83E29EC30FE008597D8 /* PublishTodoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83D29EC30FE008597D8 /* PublishTodoScreen.swift */; };
 		FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E83F29EC33AF008597D8 /* GroupIconView.swift */; };
+		FAF7E84529F41432008597D8 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E84429F41432008597D8 /* Settings.swift */; };
+		FAF7E84829F41450008597D8 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E84729F41450008597D8 /* SettingsViewModel.swift */; };
+		FAF7E84B29F414AA008597D8 /* FeedBackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E84A29F414AA008597D8 /* FeedBackManager.swift */; };
+		FAF7E84E29F4191C008597D8 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E84D29F4191C008597D8 /* SettingsRow.swift */; };
+		FAF7E85029F41CBC008597D8 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E84F29F41CBC008597D8 /* AboutView.swift */; };
+		FAF7E85229F41DA5008597D8 /* AppVersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85129F41DA5008597D8 /* AppVersionView.swift */; };
+		FAF7E85429F41F7D008597D8 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85329F41F7D008597D8 /* CreditsView.swift */; };
+		FAF7E85629F42021008597D8 /* SettingsViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85529F42021008597D8 /* SettingsViewExtension.swift */; };
+		FAF7E85829F42A78008597D8 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85729F42A77008597D8 /* ShareSheetView.swift */; };
+		FAF7E85A29F42C0D008597D8 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85929F42C0D008597D8 /* MailView.swift */; };
+		FAF7E85C29F42E4B008597D8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85B29F42E4B008597D8 /* SettingsView.swift */; };
+		FAF7E85E29F43C0A008597D8 /* SettingsSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85D29F43C0A008597D8 /* SettingsSwitchRow.swift */; };
+		FAF7E86029F44061008597D8 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E85F29F44061008597D8 /* SectionHeader.swift */; };
+		FAF7E86329F44399008597D8 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = FAF7E86229F44399008597D8 /* SwiftUICharts */; };
+		FAF7E86529F443D1008597D8 /* CartTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E86429F443D1008597D8 /* CartTabScreen.swift */; };
+		FAF7E86A29F45740008597D8 /* AboutKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAF7E86929F45740008597D8 /* AboutKit */; };
+		FAF7E86F29F45783008597D8 /* OnboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E86E29F45783008597D8 /* OnboardScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,11 +85,25 @@
 		FAF7E82829EAD494008597D8 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		FAF7E83529EC2750008597D8 /* TodoTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTabScreen.swift; sourceTree = "<group>"; };
-		FAF7E83729EC2764008597D8 /* ChartTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTabScreen.swift; sourceTree = "<group>"; };
 		FAF7E83929EC2773008597D8 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		FAF7E83B29EC30E6008597D8 /* PublishGroupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishGroupScreen.swift; sourceTree = "<group>"; };
 		FAF7E83D29EC30FE008597D8 /* PublishTodoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishTodoScreen.swift; sourceTree = "<group>"; };
 		FAF7E83F29EC33AF008597D8 /* GroupIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupIconView.swift; sourceTree = "<group>"; };
+		FAF7E84429F41432008597D8 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		FAF7E84729F41450008597D8 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		FAF7E84A29F414AA008597D8 /* FeedBackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackManager.swift; sourceTree = "<group>"; };
+		FAF7E84D29F4191C008597D8 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		FAF7E84F29F41CBC008597D8 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		FAF7E85129F41DA5008597D8 /* AppVersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionView.swift; sourceTree = "<group>"; };
+		FAF7E85329F41F7D008597D8 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		FAF7E85529F42021008597D8 /* SettingsViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewExtension.swift; sourceTree = "<group>"; };
+		FAF7E85729F42A77008597D8 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		FAF7E85929F42C0D008597D8 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		FAF7E85B29F42E4B008597D8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FAF7E85D29F43C0A008597D8 /* SettingsSwitchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSwitchRow.swift; sourceTree = "<group>"; };
+		FAF7E85F29F44061008597D8 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		FAF7E86429F443D1008597D8 /* CartTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTabScreen.swift; sourceTree = "<group>"; };
+		FAF7E86E29F45783008597D8 /* OnboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF7E86329F44399008597D8 /* SwiftUICharts in Frameworks */,
+				FAF7E86A29F45740008597D8 /* AboutKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +156,9 @@
 		FAF7E7E729EABA96008597D8 /* Todo_Task */ = {
 			isa = PBXGroup;
 			children = (
+				FAF7E84929F41498008597D8 /* Managers */,
+				FAF7E84629F4143E008597D8 /* ViewModels */,
+				FAF7E84329F41424008597D8 /* Models */,
 				FAF7E82129EAD458008597D8 /* Extensions */,
 				FAF7E81E29EACD92008597D8 /* Components */,
 				FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */,
@@ -165,6 +200,7 @@
 		FAF7E81729EABCFF008597D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FAF7E84C29F418FD008597D8 /* Settings */,
 				FAF7E7EA29EABA96008597D8 /* Home.swift */,
 				FAF7E81A29EABD53008597D8 /* AddToDoView.swift */,
 				FAF7E83F29EC33AF008597D8 /* GroupIconView.swift */,
@@ -188,6 +224,7 @@
 				FAF7E82629EAD48A008597D8 /* Color.swift */,
 				FAF7E82829EAD494008597D8 /* Todo.swift */,
 				FAF7E82A29EAD4DB008597D8 /* PersistenceController.swift */,
+				FAF7E85529F42021008597D8 /* SettingsViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -195,13 +232,62 @@
 		FAF7E83429EC2610008597D8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				FAF7E86B29F4574C008597D8 /* OnboardingScreen */,
 				FAF7E83529EC2750008597D8 /* TodoTabScreen.swift */,
-				FAF7E83729EC2764008597D8 /* ChartTabScreen.swift */,
 				FAF7E83929EC2773008597D8 /* SettingsScreen.swift */,
 				FAF7E83B29EC30E6008597D8 /* PublishGroupScreen.swift */,
 				FAF7E83D29EC30FE008597D8 /* PublishTodoScreen.swift */,
+				FAF7E86429F443D1008597D8 /* CartTabScreen.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		FAF7E84329F41424008597D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E84429F41432008597D8 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAF7E84629F4143E008597D8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E84729F41450008597D8 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FAF7E84929F41498008597D8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E84A29F414AA008597D8 /* FeedBackManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FAF7E84C29F418FD008597D8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E84D29F4191C008597D8 /* SettingsRow.swift */,
+				FAF7E84F29F41CBC008597D8 /* AboutView.swift */,
+				FAF7E85129F41DA5008597D8 /* AppVersionView.swift */,
+				FAF7E85329F41F7D008597D8 /* CreditsView.swift */,
+				FAF7E85729F42A77008597D8 /* ShareSheetView.swift */,
+				FAF7E85929F42C0D008597D8 /* MailView.swift */,
+				FAF7E85B29F42E4B008597D8 /* SettingsView.swift */,
+				FAF7E85D29F43C0A008597D8 /* SettingsSwitchRow.swift */,
+				FAF7E85F29F44061008597D8 /* SectionHeader.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FAF7E86B29F4574C008597D8 /* OnboardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E86E29F45783008597D8 /* OnboardScreen.swift */,
+			);
+			path = OnboardingScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +306,10 @@
 			dependencies = (
 			);
 			name = Todo_Task;
+			packageProductDependencies = (
+				FAF7E86229F44399008597D8 /* SwiftUICharts */,
+				FAF7E86929F45740008597D8 /* AboutKit */,
+			);
 			productName = Todo_Task;
 			productReference = FAF7E7E529EABA96008597D8 /* Todo_Task.app */;
 			productType = "com.apple.product-type.application";
@@ -292,6 +382,10 @@
 				Base,
 			);
 			mainGroup = FAF7E7DC29EABA96008597D8;
+			packageReferences = (
+				FAF7E86129F44399008597D8 /* XCRemoteSwiftPackageReference "ChartView" */,
+				FAF7E86829F45740008597D8 /* XCRemoteSwiftPackageReference "AboutKit" */,
+			);
 			productRefGroup = FAF7E7E629EABA96008597D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,20 +430,34 @@
 			files = (
 				FAF7E7F229EABA98008597D8 /* Persistence.swift in Sources */,
 				FAF7E83C29EC30E6008597D8 /* PublishGroupScreen.swift in Sources */,
+				FAF7E86029F44061008597D8 /* SectionHeader.swift in Sources */,
+				FAF7E85029F41CBC008597D8 /* AboutView.swift in Sources */,
+				FAF7E86529F443D1008597D8 /* CartTabScreen.swift in Sources */,
+				FAF7E85E29F43C0A008597D8 /* SettingsSwitchRow.swift in Sources */,
+				FAF7E85229F41DA5008597D8 /* AppVersionView.swift in Sources */,
 				FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */,
-				FAF7E83829EC2764008597D8 /* ChartTabScreen.swift in Sources */,
+				FAF7E85829F42A78008597D8 /* ShareSheetView.swift in Sources */,
+				FAF7E84B29F414AA008597D8 /* FeedBackManager.swift in Sources */,
 				FAF7E81B29EABD53008597D8 /* AddToDoView.swift in Sources */,
+				FAF7E84829F41450008597D8 /* SettingsViewModel.swift in Sources */,
 				FAF7E82529EAD47F008597D8 /* Group.swift in Sources */,
+				FAF7E85629F42021008597D8 /* SettingsViewExtension.swift in Sources */,
+				FAF7E84529F41432008597D8 /* Settings.swift in Sources */,
 				FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */,
 				FAF7E7F529EABA98008597D8 /* Todo_Task.xcdatamodeld in Sources */,
+				FAF7E86F29F45783008597D8 /* OnboardScreen.swift in Sources */,
 				FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */,
 				FAF7E83A29EC2773008597D8 /* SettingsScreen.swift in Sources */,
 				FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */,
 				FAF7E83629EC2750008597D8 /* TodoTabScreen.swift in Sources */,
 				FAF7E81929EABD47008597D8 /* AddButton.swift in Sources */,
 				FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */,
+				FAF7E85C29F42E4B008597D8 /* SettingsView.swift in Sources */,
+				FAF7E84E29F4191C008597D8 /* SettingsRow.swift in Sources */,
 				FAF7E82729EAD48A008597D8 /* Color.swift in Sources */,
+				FAF7E85429F41F7D008597D8 /* CreditsView.swift in Sources */,
 				FAF7E82929EAD494008597D8 /* Todo.swift in Sources */,
+				FAF7E85A29F42C0D008597D8 /* MailView.swift in Sources */,
 				FAF7E83E29EC30FE008597D8 /* PublishTodoScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,6 +777,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAF7E86129F44399008597D8 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FAF7E86829F45740008597D8 /* XCRemoteSwiftPackageReference "AboutKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamfootdev/AboutKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAF7E86229F44399008597D8 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF7E86129F44399008597D8 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		FAF7E86929F45740008597D8 /* AboutKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF7E86829F45740008597D8 /* XCRemoteSwiftPackageReference "AboutKit" */;
+			productName = AboutKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FAF7E7F329EABA98008597D8 /* Todo_Task.xcdatamodeld */ = {

@@ -10,19 +10,19 @@ import CoreData
 
 struct Home: View {
     var body: some View {
-
+        
             TabView{
-                
+
                 TodoTabScreen()
                     .tabItem{
                         Image(systemName: "list.dash")
                     }
-                ChartTabScreen()
+                CartTabScreen()
                     .tabItem{
                         Image(systemName: "chart.bar.xaxis")
                     }
-                
-                SettingsScreen()
+
+                SettingsView()
                     .tabItem{
                         Image(systemName: "gear")
                     }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3A0C8929F8680A00990857 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8829F8680A00990857 /* ListItemView.swift */; };
+		FA3A0C8B29F86A3000990857 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8A29F86A3000990857 /* CheckBoxView.swift */; };
+		FA3A0C8D29F86B5100990857 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8C29F86B5100990857 /* TodoListView.swift */; };
+		FA3A0C8F29F86EB000990857 /* GroupChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8E29F86EB000990857 /* GroupChartView.swift */; };
+		FA3A0C9129F870B800990857 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C9029F870B800990857 /* SectionTitleView.swift */; };
 		FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */; };
 		FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7EA29EABA96008597D8 /* Home.swift */; };
 		FAF7E7ED29EABA98008597D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E7EC29EABA98008597D8 /* Assets.xcassets */; };
@@ -64,6 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3A0C8829F8680A00990857 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		FA3A0C8A29F86A3000990857 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		FA3A0C8C29F86B5100990857 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		FA3A0C8E29F86EB000990857 /* GroupChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChartView.swift; sourceTree = "<group>"; };
+		FA3A0C9029F870B800990857 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
 		FAF7E7E529EABA96008597D8 /* Todo_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_TaskApp.swift; sourceTree = "<group>"; };
 		FAF7E7EA29EABA96008597D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -202,6 +212,11 @@
 				FAF7E7EA29EABA96008597D8 /* Home.swift */,
 				FAF7E81A29EABD53008597D8 /* AddToDoView.swift */,
 				FAF7E83F29EC33AF008597D8 /* GroupIconView.swift */,
+				FA3A0C8829F8680A00990857 /* ListItemView.swift */,
+				FA3A0C8A29F86A3000990857 /* CheckBoxView.swift */,
+				FA3A0C8C29F86B5100990857 /* TodoListView.swift */,
+				FA3A0C8E29F86EB000990857 /* GroupChartView.swift */,
+				FA3A0C9029F870B800990857 /* SectionTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -438,8 +453,10 @@
 				FAF7E81B29EABD53008597D8 /* AddToDoView.swift in Sources */,
 				FAF7E84829F41450008597D8 /* SettingsViewModel.swift in Sources */,
 				FAF7E82529EAD47F008597D8 /* Group.swift in Sources */,
+				FA3A0C9129F870B800990857 /* SectionTitleView.swift in Sources */,
 				FAF7E85629F42021008597D8 /* SettingsViewExtension.swift in Sources */,
 				FAF7E84529F41432008597D8 /* Settings.swift in Sources */,
+				FA3A0C8B29F86A3000990857 /* CheckBoxView.swift in Sources */,
 				FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */,
 				FAF7E7F529EABA98008597D8 /* Todo_Task.xcdatamodeld in Sources */,
 				FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */,
@@ -447,9 +464,12 @@
 				FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */,
 				FAF7E83629EC2750008597D8 /* TodoTabScreen.swift in Sources */,
 				FAF7E81929EABD47008597D8 /* AddButton.swift in Sources */,
+				FA3A0C8F29F86EB000990857 /* GroupChartView.swift in Sources */,
 				FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */,
 				FAF7E85C29F42E4B008597D8 /* SettingsView.swift in Sources */,
 				FAF7E84E29F4191C008597D8 /* SettingsRow.swift in Sources */,
+				FA3A0C8D29F86B5100990857 /* TodoListView.swift in Sources */,
+				FA3A0C8929F8680A00990857 /* ListItemView.swift in Sources */,
 				FAF7E82729EAD48A008597D8 /* Color.swift in Sources */,
 				FAF7E85429F41F7D008597D8 /* CreditsView.swift in Sources */,
 				FAF7E82929EAD494008597D8 /* Todo.swift in Sources */,

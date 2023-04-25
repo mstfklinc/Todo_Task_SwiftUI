@@ -10,38 +10,23 @@ import CoreData
 
 struct Home: View {
     var body: some View {
-        
-//        NavigationView{
-//            ZStack{
-//                VStack{
-//                    Spacer()
-//                    HStack{
-//                        BottomBar()
-//                    }
-//                }
-//                TodoTabScreen()
-//            }
-//        }
-
         ZStack{
-                        TabView{
-                            TodoTabScreen()
-                                .tabItem{
-                                    Image(systemName: "list.dash")
-                                }
-                            CartTabScreen()
-                                .tabItem{
-                                    Image(systemName: "chart.bar.xaxis")
-                                }
-            
-                            SettingsView()
-                                .tabItem{
-                                    Image(systemName: "gear")
-                                }
-                        }
+            TabView{
+                TodoTabScreen()
+                    .tabItem{
+                        Image(systemName: "list.dash")
+                    }
+                CartTabScreen()
+                    .tabItem{
+                        Image(systemName: "chart.bar.xaxis")
+                    }
+                
+                SettingsView()
+                    .tabItem{
+                        Image(systemName: "gear")
+                    }
+            }
         }
-        
-
     }
 }
 

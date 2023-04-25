@@ -10,8 +10,10 @@ import SwiftUI
 struct AddButton: View {
     
     @State private var showingToDoView : Bool = false
-    @State private var isDetectingLongGesture : Bool = false
+//    @State private var isDetectingLongGesture : Bool = false
     @State private var showingbuttons : Bool = false
+    @State private var showingPublishGroupView : Bool = false
+    @State private var showingPublishToDoScreen : Bool = false
     
     var body: some View {
         VStack{
@@ -19,17 +21,21 @@ struct AddButton: View {
             HStack{
                 Spacer()
                 ZStack(alignment: .bottomTrailing){
-                        Button(action: {self.showingbuttons.toggle()}){
-                            Image(systemName: "bag.badge.plus")
+                        Button(action: {self.showingPublishGroupView.toggle()}){
+                            Image(systemName: "tag.fill")
                                 .padding(.all, 24)
                                 .rotationEffect(.degrees(showingbuttons ? 0 : -90), anchor: .center)
+                           
                         }.background(Circle().fill(Color.blue).shadow(radius: 8, x:4, y:4))
                             .foregroundColor(.white)
                             .font(.system(size: 25))
                             .offset(x:-50, y: showingbuttons ? -150 : 0)
                             .opacity(showingbuttons ? 1 : 0)
+                            .sheet(isPresented: $showingPublishGroupView) {
+                                PublishGroupScreen()
+                            }
 
-                        Button(action: {self.showingbuttons.toggle()}){
+                        Button(action: {self.showingPublishToDoScreen.toggle()}){
                             Image(systemName: "bag.badge.plus")
                                 .padding(.all, 24)
                                 .rotationEffect(.degrees(showingbuttons ? 0 : 90), anchor: .center)
@@ -38,6 +44,9 @@ struct AddButton: View {
                             .font(.system(size: 25))
                             .offset(x: showingbuttons ? -140 : 0, y: showingbuttons ? -60 : 0)
                             .opacity(showingbuttons ? 1 : 0)
+                            .sheet(isPresented: $showingPublishToDoScreen) {
+                                PublishTodoScreen()
+                            }
 
                         Button(action:{ self.showingbuttons.toggle()}){
                             ZStack{

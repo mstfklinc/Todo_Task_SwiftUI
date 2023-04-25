@@ -44,7 +44,6 @@
 		FAF7E86329F44399008597D8 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = FAF7E86229F44399008597D8 /* SwiftUICharts */; };
 		FAF7E86529F443D1008597D8 /* CartTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E86429F443D1008597D8 /* CartTabScreen.swift */; };
 		FAF7E86A29F45740008597D8 /* AboutKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAF7E86929F45740008597D8 /* AboutKit */; };
-		FAF7E86F29F45783008597D8 /* OnboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E86E29F45783008597D8 /* OnboardScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +102,6 @@
 		FAF7E85D29F43C0A008597D8 /* SettingsSwitchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSwitchRow.swift; sourceTree = "<group>"; };
 		FAF7E85F29F44061008597D8 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		FAF7E86429F443D1008597D8 /* CartTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTabScreen.swift; sourceTree = "<group>"; };
-		FAF7E86E29F45783008597D8 /* OnboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +283,6 @@
 		FAF7E86B29F4574C008597D8 /* OnboardingScreen */ = {
 			isa = PBXGroup;
 			children = (
-				FAF7E86E29F45783008597D8 /* OnboardScreen.swift */,
 			);
 			path = OnboardingScreen;
 			sourceTree = "<group>";
@@ -445,7 +442,6 @@
 				FAF7E84529F41432008597D8 /* Settings.swift in Sources */,
 				FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */,
 				FAF7E7F529EABA98008597D8 /* Todo_Task.xcdatamodeld in Sources */,
-				FAF7E86F29F45783008597D8 /* OnboardScreen.swift in Sources */,
 				FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */,
 				FAF7E83A29EC2773008597D8 /* SettingsScreen.swift in Sources */,
 				FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */,

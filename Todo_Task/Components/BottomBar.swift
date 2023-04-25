@@ -20,12 +20,38 @@ struct BottomNavBarItem : View{
 
 struct BottomBar: View {
     
+    @State private var showingAddHomeView : Bool = false
+    @State private var showingChartView : Bool = false
+    @State private var showingSettingsView : Bool = false
+    
     var body: some View{
+        
+        
         HStack{
             
-            BottomNavBarItem(image: Image(systemName: "list.dash"), action: {})
-            BottomNavBarItem(image: Image(systemName: "chart.bar.xaxis"), action: {})
-            BottomNavBarItem(image: Image(systemName: "gear"), action: {})
+                BottomNavBarItem(image: Image(systemName: "list.dash"), action: {
+                    self.showingAddHomeView.toggle()
+                })
+                .sheet(isPresented: $showingAddHomeView) {
+                        Home()
+                    }
+           
+                BottomNavBarItem(image: Image(systemName: "chart.bar.xaxis"), action: {
+                    self.showingChartView.toggle()
+                })
+                .sheet(isPresented: $showingChartView) {
+                    CartTabScreen()
+                }
+            
+   
+                BottomNavBarItem(image: Image(systemName: "gear"), action: {
+                    self.showingSettingsView.toggle()
+                })
+                .sheet(isPresented: $showingSettingsView) {
+                    SettingsView()
+                }
+
+            
             
         }.padding()
             .background(Color.white)

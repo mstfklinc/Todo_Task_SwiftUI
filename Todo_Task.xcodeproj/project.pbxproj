@@ -12,6 +12,18 @@
 		FA3A0C8D29F86B5100990857 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8C29F86B5100990857 /* TodoListView.swift */; };
 		FA3A0C8F29F86EB000990857 /* GroupChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8E29F86EB000990857 /* GroupChartView.swift */; };
 		FA3A0C9129F870B800990857 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C9029F870B800990857 /* SectionTitleView.swift */; };
+		FA3A0CA329F9370400990857 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A0CA029F9370400990857 /* Inter-Regular.ttf */; };
+		FA3A0CA429F9370400990857 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A0CA129F9370400990857 /* Poppins-Bold.ttf */; };
+		FA3A0CA529F9370400990857 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A0CA229F9370400990857 /* Inter-SemiBold.ttf */; };
+		FA3A0CA829F9377500990857 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CA729F9377500990857 /* CustomFont.swift */; };
+		FA3A0CAF29F93EA400990857 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CAE29F93EA400990857 /* CustomButton.swift */; };
+		FA3A0CB129F93ED700990857 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CB029F93ED700990857 /* CustomTextField.swift */; };
+		FA3A0CB329F93EED00990857 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CB229F93EED00990857 /* Extensions.swift */; };
+		FA3A0CBD29F9446300990857 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CBC29F9446300990857 /* SideMenu.swift */; };
+		FA3A0CC129F944B400990857 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CC029F944B400990857 /* CustomCorners.swift */; };
+		FA3A0CC329F944CB00990857 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CC229F944CB00990857 /* TabButton.swift */; };
+		FA3A0CC529F9452000990857 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CC429F9452000990857 /* MainView.swift */; };
+		FA3A0CC729F9463B00990857 /* HomeSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CC629F9463B00990857 /* HomeSideView.swift */; };
 		FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */; };
 		FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7EA29EABA96008597D8 /* Home.swift */; };
 		FAF7E7ED29EABA98008597D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E7EC29EABA98008597D8 /* Assets.xcassets */; };
@@ -74,6 +86,25 @@
 		FA3A0C8C29F86B5100990857 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		FA3A0C8E29F86EB000990857 /* GroupChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChartView.swift; sourceTree = "<group>"; };
 		FA3A0C9029F870B800990857 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		FA3A0C9829F9361E00990857 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		FA3A0C9929F9361E00990857 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		FA3A0C9A29F9361E00990857 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		FA3A0C9B29F9361E00990857 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		FA3A0C9C29F9361E00990857 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		FA3A0C9D29F9361E00990857 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		FA3A0C9E29F9361E00990857 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		FA3A0CA029F9370400990857 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		FA3A0CA129F9370400990857 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FA3A0CA229F9370400990857 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA3A0CA729F9377500990857 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		FA3A0CAE29F93EA400990857 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FA3A0CB029F93ED700990857 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FA3A0CB229F93EED00990857 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA3A0CBC29F9446300990857 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		FA3A0CC029F944B400990857 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		FA3A0CC229F944CB00990857 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		FA3A0CC429F9452000990857 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA3A0CC629F9463B00990857 /* HomeSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSideView.swift; sourceTree = "<group>"; };
 		FAF7E7E529EABA96008597D8 /* Todo_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_TaskApp.swift; sourceTree = "<group>"; };
 		FAF7E7EA29EABA96008597D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -141,6 +172,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3A0C9729F935C800990857 /* Rive-Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A0C9E29F9361E00990857 /* button.riv */,
+				FA3A0C9829F9361E00990857 /* check.riv */,
+				FA3A0C9D29F9361E00990857 /* confetti.riv */,
+				FA3A0C9A29F9361E00990857 /* house.riv */,
+				FA3A0C9929F9361E00990857 /* icons.riv */,
+				FA3A0C9C29F9361E00990857 /* menu_button.riv */,
+				FA3A0C9B29F9361E00990857 /* shapes.riv */,
+			);
+			path = "Rive-Assets";
+			sourceTree = "<group>";
+		};
+		FA3A0C9F29F9370400990857 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A0CA029F9370400990857 /* Inter-Regular.ttf */,
+				FA3A0CA129F9370400990857 /* Poppins-Bold.ttf */,
+				FA3A0CA229F9370400990857 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA3A0CA629F9375B00990857 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A0CA729F9377500990857 /* CustomFont.swift */,
+				FA3A0CAE29F93EA400990857 /* CustomButton.swift */,
+				FA3A0CB029F93ED700990857 /* CustomTextField.swift */,
+				FA3A0CB229F93EED00990857 /* Extensions.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		FA3A0CBB29F9443E00990857 /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A0CBC29F9446300990857 /* SideMenu.swift */,
+				FA3A0CC029F944B400990857 /* CustomCorners.swift */,
+				FA3A0CC229F944CB00990857 /* TabButton.swift */,
+				FA3A0CC429F9452000990857 /* MainView.swift */,
+				FA3A0CC629F9463B00990857 /* HomeSideView.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
 		FAF7E7DC29EABA96008597D8 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +242,7 @@
 		FAF7E7E729EABA96008597D8 /* Todo_Task */ = {
 			isa = PBXGroup;
 			children = (
+				FA3A0CA629F9375B00990857 /* Styles */,
 				FAF7E84929F41498008597D8 /* Managers */,
 				FAF7E84629F4143E008597D8 /* ViewModels */,
 				FAF7E84329F41424008597D8 /* Models */,
@@ -173,6 +252,8 @@
 				FAF7E83429EC2610008597D8 /* Screens */,
 				FAF7E81729EABCFF008597D8 /* View */,
 				FAF7E7EC29EABA98008597D8 /* Assets.xcassets */,
+				FA3A0C9F29F9370400990857 /* Fonts */,
+				FA3A0C9729F935C800990857 /* Rive-Assets */,
 				FAF7E7F329EABA98008597D8 /* Todo_Task.xcdatamodeld */,
 				FAF7E7EE29EABA98008597D8 /* Preview Content */,
 			);
@@ -208,6 +289,7 @@
 		FAF7E81729EABCFF008597D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA3A0CBB29F9443E00990857 /* Navigations */,
 				FAF7E84C29F418FD008597D8 /* Settings */,
 				FAF7E7EA29EABA96008597D8 /* Home.swift */,
 				FAF7E81A29EABD53008597D8 /* AddToDoView.swift */,
@@ -415,7 +497,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF7E7F029EABA98008597D8 /* Preview Assets.xcassets in Resources */,
+				FA3A0CA329F9370400990857 /* Inter-Regular.ttf in Resources */,
 				FAF7E7ED29EABA98008597D8 /* Assets.xcassets in Resources */,
+				FA3A0CA529F9370400990857 /* Inter-SemiBold.ttf in Resources */,
+				FA3A0CA429F9370400990857 /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +532,8 @@
 				FAF7E86529F443D1008597D8 /* CartTabScreen.swift in Sources */,
 				FAF7E85E29F43C0A008597D8 /* SettingsSwitchRow.swift in Sources */,
 				FAF7E85229F41DA5008597D8 /* AppVersionView.swift in Sources */,
+				FA3A0CA829F9377500990857 /* CustomFont.swift in Sources */,
+				FA3A0CAF29F93EA400990857 /* CustomButton.swift in Sources */,
 				FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */,
 				FAF7E85829F42A78008597D8 /* ShareSheetView.swift in Sources */,
 				FAF7E84B29F414AA008597D8 /* FeedBackManager.swift in Sources */,
@@ -456,14 +543,19 @@
 				FA3A0C9129F870B800990857 /* SectionTitleView.swift in Sources */,
 				FAF7E85629F42021008597D8 /* SettingsViewExtension.swift in Sources */,
 				FAF7E84529F41432008597D8 /* Settings.swift in Sources */,
+				FA3A0CC729F9463B00990857 /* HomeSideView.swift in Sources */,
 				FA3A0C8B29F86A3000990857 /* CheckBoxView.swift in Sources */,
 				FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */,
 				FAF7E7F529EABA98008597D8 /* Todo_Task.xcdatamodeld in Sources */,
 				FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */,
 				FAF7E83A29EC2773008597D8 /* SettingsScreen.swift in Sources */,
 				FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */,
+				FA3A0CB129F93ED700990857 /* CustomTextField.swift in Sources */,
+				FA3A0CC129F944B400990857 /* CustomCorners.swift in Sources */,
 				FAF7E83629EC2750008597D8 /* TodoTabScreen.swift in Sources */,
+				FA3A0CC329F944CB00990857 /* TabButton.swift in Sources */,
 				FAF7E81929EABD47008597D8 /* AddButton.swift in Sources */,
+				FA3A0CBD29F9446300990857 /* SideMenu.swift in Sources */,
 				FA3A0C8F29F86EB000990857 /* GroupChartView.swift in Sources */,
 				FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */,
 				FAF7E85C29F42E4B008597D8 /* SettingsView.swift in Sources */,
@@ -471,6 +563,8 @@
 				FA3A0C8D29F86B5100990857 /* TodoListView.swift in Sources */,
 				FA3A0C8929F8680A00990857 /* ListItemView.swift in Sources */,
 				FAF7E82729EAD48A008597D8 /* Color.swift in Sources */,
+				FA3A0CB329F93EED00990857 /* Extensions.swift in Sources */,
+				FA3A0CC529F9452000990857 /* MainView.swift in Sources */,
 				FAF7E85429F41F7D008597D8 /* CreditsView.swift in Sources */,
 				FAF7E82929EAD494008597D8 /* Todo.swift in Sources */,
 				FAF7E85A29F42C0D008597D8 /* MailView.swift in Sources */,

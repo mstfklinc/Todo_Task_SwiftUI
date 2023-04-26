@@ -16,23 +16,22 @@ struct TodoTabScreen: View {
     @State private var isAddTodoOpen = false
     @State private var filteredByGroup: Group? = nil
     
+    @State private var showingToDoView : Bool = false
+//    @State private var isDetectingLongGesture : Bool = false
+    @State private var showingbuttons : Bool = false
+    @State private var showingPublishGroupView : Bool = false
+    @State private var showingPublishToDoScreen : Bool = false
+    
     private let groupCardColumns = Array(repeating: GridItem(.flexible(), spacing: 10), count: 2)
     
     @State private var showingAddToDoView : Bool = false
     var body: some View {
-//        ZStack{
-//            Button {
-//                self.showingAddToDoView.toggle()
-//            } label: {
-//                AddButton()
-//            }.sheet(isPresented: $showingAddToDoView) {
-//                AddToDoView()
-//            }
-//        }
-//
+        
+        
+
         NavigationView {
             ScrollView {
-                VStack (spacing: 10) {
+                VStack ( alignment: .leading, spacing: 10) {
                     LazyVGrid(columns: groupCardColumns, spacing: 10) {
                         ForEach(groups) {group in
                             GroupChartView(
@@ -51,7 +50,11 @@ struct TodoTabScreen: View {
                     SectionTitleView(title: "All")
                     
                     TodoListView(query: searchValue, group: filteredByGroup)
+                    
                 }
+//                Spacer()
+//                AddButton()
+//                    .padding(.vertical, 350)
             }
             .padding(.leading)
             .padding(.trailing)
@@ -76,6 +79,8 @@ struct TodoTabScreen: View {
                 }
             }
             .navigationViewStyle(.automatic)
+            
+            
         }
     }
 }

@@ -77,6 +77,15 @@ struct TodoTabScreen: View {
                             }
                     }
                 }
+                
+                ToolbarItem (placement: .primaryAction) {
+                    Button(action: { isAddTodoOpen = true }) {
+                        Image(systemName: "plus.circle")
+                            .sheet(isPresented: $isAddTodoOpen) {
+                                PublishTodoScreen()
+                            }
+                    }
+                }
             }
             .navigationViewStyle(.automatic)
             

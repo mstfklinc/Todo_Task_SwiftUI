@@ -24,7 +24,8 @@ struct Home: View {
                         Image(systemName: "chart.bar.xaxis")
                     }
                 
-                SettingsView()
+//                SettingsView()
+                SettingsFormView()
                     .tabItem{
                         Image(systemName: "gear")
                     }

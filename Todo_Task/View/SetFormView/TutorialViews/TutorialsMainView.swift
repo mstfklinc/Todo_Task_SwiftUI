@@ -1,13 +1,13 @@
 //
-//  CreditsView.swift
+//  TutorialsMainView.swift
 //  Todo_Task
 //
-//  Created by Mustafa Kılınç on 22.04.2023.
+//  Created by Mustafa Kılınç on 30.04.2023.
 //
 
 import SwiftUI
 
-struct CreditsView: View {
+struct TutorialsMainView: View {
     var appURL = URL(string: "https://github.com/mstfklinc")!
     var body: some View {
         
@@ -33,8 +33,8 @@ struct CreditsView: View {
     }
 }
 
-struct CreditsView_Previews: PreviewProvider {
+struct TutorialsMainView_Previews: PreviewProvider {
     static var previews: some View {
-        CreditsView()
+        TutorialsMainView()
     }
 }

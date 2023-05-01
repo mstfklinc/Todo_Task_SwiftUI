@@ -21,14 +21,16 @@ struct TodoTabScreen: View {
     @State private var showingbuttons : Bool = false
     @State private var showingPublishGroupView : Bool = false
     @State private var showingPublishToDoScreen : Bool = false
+    @State private var showingSettingsScreen : Bool = false
+    
+    @State var isOpen = false
+    @State var show = false
     
     private let groupCardColumns = Array(repeating: GridItem(.flexible(), spacing: 10), count: 2)
     
     @State private var showingAddToDoView : Bool = false
     var body: some View {
         
-        
-
         NavigationView {
             ScrollView {
                 VStack ( alignment: .leading, spacing: 10) {
@@ -47,14 +49,14 @@ struct TodoTabScreen: View {
                         }
                     }
                     
-                    SectionTitleView(title: "All")
+                    SectionTitleView(title: "All Issues")
                     
                     TodoListView(query: searchValue, group: filteredByGroup)
                     
                 }
 //                Spacer()
 //                AddButton()
-//                    .padding(.vertical, 350)
+                  
             }
             .padding(.leading)
             .padding(.trailing)
@@ -64,6 +66,11 @@ struct TodoTabScreen: View {
                 ToolbarItem (placement: .navigationBarTrailing) {
                     Button(action: { isAddGroupOpen = true }) {
                         Image(systemName: "plus.rectangle.on.folder")
+                            .frame(width: 36, height: 36)
+                            .background(.white)
+                            .mask(Circle())
+                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                            .shadow(color: Color("Shadow").opacity(0.2), radius: 5, x: 0, y: 5)
                             .sheet (isPresented: $isAddGroupOpen) {
                                 PublishGroupScreen()
                             }
@@ -72,6 +79,11 @@ struct TodoTabScreen: View {
                 ToolbarItem (placement: .primaryAction) {
                     Button(action: { isAddTodoOpen = true }) {
                         Image(systemName: "plus.circle")
+                            .frame(width: 36, height: 36)
+                            .background(.white)
+                            .mask(Circle())
+                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                            .shadow(color: Color("Shadow").opacity(0.2), radius: 5, x: 0, y: 5)
                             .sheet(isPresented: $isAddTodoOpen) {
                                 PublishTodoScreen()
                             }
@@ -79,16 +91,20 @@ struct TodoTabScreen: View {
                 }
                 
                 ToolbarItem (placement: .primaryAction) {
-                    Button(action: { isAddTodoOpen = true }) {
-                        Image(systemName: "plus.circle")
-                            .sheet(isPresented: $isAddTodoOpen) {
-                                PublishTodoScreen()
+                    Button(action: { showingSettingsScreen = true }) {
+                        Image(systemName: "gear")
+                            .frame(width: 36, height: 36)
+                            .background(.white)
+                            .mask(Circle())
+                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                            .shadow(color: Color("Shadow").opacity(0.2), radius: 5, x: 0, y: 5)
+                            .sheet(isPresented: $showingSettingsScreen) {
+                                SettingsFormView()
                             }
                     }
                 }
             }
             .navigationViewStyle(.automatic)
-            
             
         }
     }

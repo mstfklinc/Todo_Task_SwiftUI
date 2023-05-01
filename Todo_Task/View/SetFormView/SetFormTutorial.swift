@@ -13,6 +13,7 @@ struct SetFormTutorial: View {
     var color : Color
     var text : String
     
+    
     var body: some View {
         HStack{
             ZStack{

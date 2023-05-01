@@ -12,9 +12,6 @@
 		FA3A0C8D29F86B5100990857 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8C29F86B5100990857 /* TodoListView.swift */; };
 		FA3A0C8F29F86EB000990857 /* GroupChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C8E29F86EB000990857 /* GroupChartView.swift */; };
 		FA3A0C9129F870B800990857 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0C9029F870B800990857 /* SectionTitleView.swift */; };
-		FA3A0CA329F9370400990857 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A0CA029F9370400990857 /* Inter-Regular.ttf */; };
-		FA3A0CA429F9370400990857 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A0CA129F9370400990857 /* Poppins-Bold.ttf */; };
-		FA3A0CA529F9370400990857 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3A0CA229F9370400990857 /* Inter-SemiBold.ttf */; };
 		FA3A0CA829F9377500990857 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CA729F9377500990857 /* CustomFont.swift */; };
 		FA3A0CAF29F93EA400990857 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CAE29F93EA400990857 /* CustomButton.swift */; };
 		FA3A0CB129F93ED700990857 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0CB029F93ED700990857 /* CustomTextField.swift */; };
@@ -33,6 +30,21 @@
 		FA74D84129FD1D39007FB910 /* SetFormTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74D84029FD1D39007FB910 /* SetFormTutorial.swift */; };
 		FA74D84329FD2C8C007FB910 /* SetFormSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74D84229FD2C8C007FB910 /* SetFormSwitch.swift */; };
 		FA74D84529FD4147007FB910 /* SetFormNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74D84429FD4147007FB910 /* SetFormNotification.swift */; };
+		FAE02D8F29FEC48500170BBF /* Localizable(ENG).strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE02D9129FEC48500170BBF /* Localizable(ENG).strings */; };
+		FAE02D9229FEC48B00170BBF /* Localizable(TR).strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE02D9429FEC48B00170BBF /* Localizable(TR).strings */; };
+		FAE02D9729FECA5C00170BBF /* TutorialsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE02D9629FECA5C00170BBF /* TutorialsMainView.swift */; };
+		FAE02D9A29FFEA0200170BBF /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = FAE02D9929FFEA0200170BBF /* RiveRuntime */; };
+		FAE02D9C29FFEB8A00170BBF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE02D9B29FFEB8A00170BBF /* TabBar.swift */; };
+		FAE02DA229FFF0F400170BBF /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE02D9F29FFF0F400170BBF /* Inter-Regular.ttf */; };
+		FAE02DA329FFF0F400170BBF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DA029FFF0F400170BBF /* Poppins-Bold.ttf */; };
+		FAE02DA429FFF0F400170BBF /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DA129FFF0F400170BBF /* Inter-SemiBold.ttf */; };
+		FAE02DAD29FFF0FF00170BBF /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DA629FFF0FF00170BBF /* house.riv */; };
+		FAE02DAE29FFF0FF00170BBF /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DA729FFF0FF00170BBF /* confetti.riv */; };
+		FAE02DAF29FFF0FF00170BBF /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DA829FFF0FF00170BBF /* check.riv */; };
+		FAE02DB029FFF0FF00170BBF /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DA929FFF0FF00170BBF /* menu_button.riv */; };
+		FAE02DB129FFF0FF00170BBF /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DAA29FFF0FF00170BBF /* shapes.riv */; };
+		FAE02DB229FFF0FF00170BBF /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DAB29FFF0FF00170BBF /* button.riv */; };
+		FAE02DB329FFF0FF00170BBF /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = FAE02DAC29FFF0FF00170BBF /* icons.riv */; };
 		FAF7E7E929EABA96008597D8 /* Todo_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */; };
 		FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E7EA29EABA96008597D8 /* Home.swift */; };
 		FAF7E7ED29EABA98008597D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E7EC29EABA98008597D8 /* Assets.xcassets */; };
@@ -44,7 +56,6 @@
 		FAF7E80B29EABA98008597D8 /* Todo_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E80A29EABA98008597D8 /* Todo_TaskUITestsLaunchTests.swift */; };
 		FAF7E81929EABD47008597D8 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E81829EABD47008597D8 /* AddButton.swift */; };
 		FAF7E81B29EABD53008597D8 /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E81A29EABD53008597D8 /* AddToDoView.swift */; };
-		FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E81F29EACDA1008597D8 /* BottomBar.swift */; };
 		FAF7E82529EAD47F008597D8 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82429EAD47F008597D8 /* Group.swift */; };
 		FAF7E82729EAD48A008597D8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82629EAD48A008597D8 /* Color.swift */; };
 		FAF7E82929EAD494008597D8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E82829EAD494008597D8 /* Todo.swift */; };
@@ -95,16 +106,6 @@
 		FA3A0C8C29F86B5100990857 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		FA3A0C8E29F86EB000990857 /* GroupChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChartView.swift; sourceTree = "<group>"; };
 		FA3A0C9029F870B800990857 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
-		FA3A0C9829F9361E00990857 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
-		FA3A0C9929F9361E00990857 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
-		FA3A0C9A29F9361E00990857 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
-		FA3A0C9B29F9361E00990857 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
-		FA3A0C9C29F9361E00990857 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
-		FA3A0C9D29F9361E00990857 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
-		FA3A0C9E29F9361E00990857 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
-		FA3A0CA029F9370400990857 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
-		FA3A0CA129F9370400990857 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		FA3A0CA229F9370400990857 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		FA3A0CA729F9377500990857 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		FA3A0CAE29F93EA400990857 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FA3A0CB029F93ED700990857 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -123,6 +124,20 @@
 		FA74D84029FD1D39007FB910 /* SetFormTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFormTutorial.swift; sourceTree = "<group>"; };
 		FA74D84229FD2C8C007FB910 /* SetFormSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFormSwitch.swift; sourceTree = "<group>"; };
 		FA74D84429FD4147007FB910 /* SetFormNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFormNotification.swift; sourceTree = "<group>"; };
+		FAE02D9029FEC48500170BBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Localizable(ENG).strings"; sourceTree = "<group>"; };
+		FAE02D9329FEC48B00170BBF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = "tr.lproj/Localizable(TR).strings"; sourceTree = "<group>"; };
+		FAE02D9629FECA5C00170BBF /* TutorialsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsMainView.swift; sourceTree = "<group>"; };
+		FAE02D9B29FFEB8A00170BBF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		FAE02D9F29FFF0F400170BBF /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		FAE02DA029FFF0F400170BBF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FAE02DA129FFF0F400170BBF /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		FAE02DA629FFF0FF00170BBF /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		FAE02DA729FFF0FF00170BBF /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		FAE02DA829FFF0FF00170BBF /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		FAE02DA929FFF0FF00170BBF /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		FAE02DAA29FFF0FF00170BBF /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		FAE02DAB29FFF0FF00170BBF /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		FAE02DAC29FFF0FF00170BBF /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
 		FAF7E7E529EABA96008597D8 /* Todo_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF7E7E829EABA96008597D8 /* Todo_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_TaskApp.swift; sourceTree = "<group>"; };
 		FAF7E7EA29EABA96008597D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -137,7 +152,6 @@
 		FAF7E80A29EABA98008597D8 /* Todo_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAF7E81829EABD47008597D8 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
 		FAF7E81A29EABD53008597D8 /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
-		FAF7E81F29EACDA1008597D8 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		FAF7E82429EAD47F008597D8 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		FAF7E82629EAD48A008597D8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FAF7E82829EAD494008597D8 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
@@ -170,6 +184,7 @@
 			files = (
 				FAF7E86329F44399008597D8 /* SwiftUICharts in Frameworks */,
 				FAF7E86A29F45740008597D8 /* AboutKit in Frameworks */,
+				FAE02D9A29FFEA0200170BBF /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,30 +205,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA3A0C9729F935C800990857 /* Rive-Assets */ = {
-			isa = PBXGroup;
-			children = (
-				FA3A0C9E29F9361E00990857 /* button.riv */,
-				FA3A0C9829F9361E00990857 /* check.riv */,
-				FA3A0C9D29F9361E00990857 /* confetti.riv */,
-				FA3A0C9A29F9361E00990857 /* house.riv */,
-				FA3A0C9929F9361E00990857 /* icons.riv */,
-				FA3A0C9C29F9361E00990857 /* menu_button.riv */,
-				FA3A0C9B29F9361E00990857 /* shapes.riv */,
-			);
-			path = "Rive-Assets";
-			sourceTree = "<group>";
-		};
-		FA3A0C9F29F9370400990857 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				FA3A0CA029F9370400990857 /* Inter-Regular.ttf */,
-				FA3A0CA129F9370400990857 /* Poppins-Bold.ttf */,
-				FA3A0CA229F9370400990857 /* Inter-SemiBold.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		FA3A0CA629F9375B00990857 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +231,7 @@
 		FA74D82F29FCFB73007FB910 /* SetFormView */ = {
 			isa = PBXGroup;
 			children = (
+				FAE02D9529FECA3900170BBF /* TutorialViews */,
 				FA74D83A29FD027B007FB910 /* SettingsFormView.swift */,
 				FA74D83029FCFBA6007FB910 /* SetFormRowLinkView.swift */,
 				FA74D83229FCFD72007FB910 /* SetFormRowStaticView.swift */,
@@ -251,6 +243,55 @@
 				FA74D84429FD4147007FB910 /* SetFormNotification.swift */,
 			);
 			path = SetFormView;
+			sourceTree = "<group>";
+		};
+		FAE02D8E29FEC3FB00170BBF /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				FAE02D9429FEC48B00170BBF /* Localizable(TR).strings */,
+				FAE02D9129FEC48500170BBF /* Localizable(ENG).strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		FAE02D9529FECA3900170BBF /* TutorialViews */ = {
+			isa = PBXGroup;
+			children = (
+				FAE02D9629FECA5C00170BBF /* TutorialsMainView.swift */,
+			);
+			path = TutorialViews;
+			sourceTree = "<group>";
+		};
+		FAE02D9D29FFF01300170BBF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FAE02D9E29FFF0F400170BBF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAE02D9F29FFF0F400170BBF /* Inter-Regular.ttf */,
+				FAE02DA029FFF0F400170BBF /* Poppins-Bold.ttf */,
+				FAE02DA129FFF0F400170BBF /* Inter-SemiBold.ttf */,
+			);
+			name = Fonts;
+			path = "../../../Downloads/swiftUI-rive-main/animated/Fonts";
+			sourceTree = "<group>";
+		};
+		FAE02DA529FFF0FF00170BBF /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				FAE02DA629FFF0FF00170BBF /* house.riv */,
+				FAE02DA729FFF0FF00170BBF /* confetti.riv */,
+				FAE02DA829FFF0FF00170BBF /* check.riv */,
+				FAE02DA929FFF0FF00170BBF /* menu_button.riv */,
+				FAE02DAA29FFF0FF00170BBF /* shapes.riv */,
+				FAE02DAB29FFF0FF00170BBF /* button.riv */,
+				FAE02DAC29FFF0FF00170BBF /* icons.riv */,
+			);
+			path = RiveAssets;
 			sourceTree = "<group>";
 		};
 		FAF7E7DC29EABA96008597D8 = {
@@ -276,6 +317,7 @@
 		FAF7E7E729EABA96008597D8 /* Todo_Task */ = {
 			isa = PBXGroup;
 			children = (
+				FAE02D9D29FFF01300170BBF /* Fonts */,
 				FA3A0CA629F9375B00990857 /* Styles */,
 				FAF7E84929F41498008597D8 /* Managers */,
 				FAF7E84629F4143E008597D8 /* ViewModels */,
@@ -286,8 +328,9 @@
 				FAF7E83429EC2610008597D8 /* Screens */,
 				FAF7E81729EABCFF008597D8 /* View */,
 				FAF7E7EC29EABA98008597D8 /* Assets.xcassets */,
-				FA3A0C9F29F9370400990857 /* Fonts */,
-				FA3A0C9729F935C800990857 /* Rive-Assets */,
+				FAE02D9E29FFF0F400170BBF /* Fonts */,
+				FAE02DA529FFF0FF00170BBF /* RiveAssets */,
+				FAE02D8E29FEC3FB00170BBF /* Localizable */,
 				FAF7E7F329EABA98008597D8 /* Todo_Task.xcdatamodeld */,
 				FAF7E7EE29EABA98008597D8 /* Preview Content */,
 			);
@@ -341,8 +384,8 @@
 		FAF7E81E29EACD92008597D8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FAF7E81F29EACDA1008597D8 /* BottomBar.swift */,
 				FAF7E81829EABD47008597D8 /* AddButton.swift */,
+				FAE02D9B29FFEB8A00170BBF /* TabBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -438,6 +481,7 @@
 			packageProductDependencies = (
 				FAF7E86229F44399008597D8 /* SwiftUICharts */,
 				FAF7E86929F45740008597D8 /* AboutKit */,
+				FAE02D9929FFEA0200170BBF /* RiveRuntime */,
 			);
 			productName = Todo_Task;
 			productReference = FAF7E7E529EABA96008597D8 /* Todo_Task.app */;
@@ -509,11 +553,13 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = FAF7E7DC29EABA96008597D8;
 			packageReferences = (
 				FAF7E86129F44399008597D8 /* XCRemoteSwiftPackageReference "ChartView" */,
 				FAF7E86829F45740008597D8 /* XCRemoteSwiftPackageReference "AboutKit" */,
+				FAE02D9829FFEA0200170BBF /* XCRemoteSwiftPackageReference "rive-ios" */,
 			);
 			productRefGroup = FAF7E7E629EABA96008597D8 /* Products */;
 			projectDirPath = "";
@@ -531,11 +577,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE02DAF29FFF0FF00170BBF /* check.riv in Resources */,
+				FAE02DB129FFF0FF00170BBF /* shapes.riv in Resources */,
+				FAE02DB329FFF0FF00170BBF /* icons.riv in Resources */,
 				FAF7E7F029EABA98008597D8 /* Preview Assets.xcassets in Resources */,
-				FA3A0CA329F9370400990857 /* Inter-Regular.ttf in Resources */,
+				FAE02DA329FFF0F400170BBF /* Poppins-Bold.ttf in Resources */,
+				FAE02DA229FFF0F400170BBF /* Inter-Regular.ttf in Resources */,
+				FAE02D9229FEC48B00170BBF /* Localizable(TR).strings in Resources */,
+				FAE02DB229FFF0FF00170BBF /* button.riv in Resources */,
+				FAE02DAE29FFF0FF00170BBF /* confetti.riv in Resources */,
+				FAE02DAD29FFF0FF00170BBF /* house.riv in Resources */,
 				FAF7E7ED29EABA98008597D8 /* Assets.xcassets in Resources */,
-				FA3A0CA529F9370400990857 /* Inter-SemiBold.ttf in Resources */,
-				FA3A0CA429F9370400990857 /* Poppins-Bold.ttf in Resources */,
+				FAE02D8F29FEC48500170BBF /* Localizable(ENG).strings in Resources */,
+				FAE02DB029FFF0FF00170BBF /* menu_button.riv in Resources */,
+				FAE02DA429FFF0F400170BBF /* Inter-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +626,7 @@
 				FA74D84329FD2C8C007FB910 /* SetFormSwitch.swift in Sources */,
 				FA3A0CAF29F93EA400990857 /* CustomButton.swift in Sources */,
 				FAF7E7EB29EABA96008597D8 /* Home.swift in Sources */,
+				FAE02D9729FECA5C00170BBF /* TutorialsMainView.swift in Sources */,
 				FAF7E85829F42A78008597D8 /* ShareSheetView.swift in Sources */,
 				FA74D83B29FD027B007FB910 /* SettingsFormView.swift in Sources */,
 				FAF7E84B29F414AA008597D8 /* FeedBackManager.swift in Sources */,
@@ -584,9 +640,9 @@
 				FA3A0C8B29F86A3000990857 /* CheckBoxView.swift in Sources */,
 				FAF7E82B29EAD4DB008597D8 /* PersistenceController.swift in Sources */,
 				FAF7E7F529EABA98008597D8 /* Todo_Task.xcdatamodeld in Sources */,
-				FAF7E82029EACDA1008597D8 /* BottomBar.swift in Sources */,
 				FAF7E83A29EC2773008597D8 /* SettingsScreen.swift in Sources */,
 				FAF7E84029EC33AF008597D8 /* GroupIconView.swift in Sources */,
+				FAE02D9C29FFEB8A00170BBF /* TabBar.swift in Sources */,
 				FA3A0CB129F93ED700990857 /* CustomTextField.swift in Sources */,
 				FA3A0CC129F944B400990857 /* CustomCorners.swift in Sources */,
 				FA74D83729FD00C3007FB910 /* SetFormSupportView.swift in Sources */,
@@ -647,6 +703,25 @@
 			targetProxy = FAF7E80529EABA98008597D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE02D9129FEC48500170BBF /* Localizable(ENG).strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE02D9029FEC48500170BBF /* en */,
+			);
+			name = "Localizable(ENG).strings";
+			sourceTree = "<group>";
+		};
+		FAE02D9429FEC48B00170BBF /* Localizable(TR).strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE02D9329FEC48B00170BBF /* tr */,
+			);
+			name = "Localizable(TR).strings";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FAF7E80C29EABA98008597D8 /* Debug */ = {
@@ -933,6 +1008,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		FAE02D9829FFEA0200170BBF /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		FAF7E86129F44399008597D8 /* XCRemoteSwiftPackageReference "ChartView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppPear/ChartView";
@@ -952,6 +1035,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FAE02D9929FFEA0200170BBF /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE02D9829FFEA0200170BBF /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
 		FAF7E86229F44399008597D8 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FAF7E86129F44399008597D8 /* XCRemoteSwiftPackageReference "ChartView" */;

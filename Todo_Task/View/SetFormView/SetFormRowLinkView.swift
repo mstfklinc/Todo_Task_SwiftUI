@@ -41,6 +41,7 @@ struct SetFormRowLinkView: View {
             }
             .accentColor(Color(.systemGray2))
         }
+        .padding(5)
         
     }
 }

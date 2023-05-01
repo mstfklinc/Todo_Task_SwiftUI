@@ -17,6 +17,8 @@ class SettingsViewModel: ObservableObject {
     @Published var showMailFeatureAlert = false
     @Published var showShareSheet = false
     @Published var showCreditsView = false
+    @Published var showTutorialsView = false
+
     let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
 
     func createEmailUrl(to: String, subject: String, body: String) -> URL? {

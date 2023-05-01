@@ -27,9 +27,9 @@ struct ListItemView: View {
             HStack {
                 VStack (alignment: .leading, spacing: 5) {
                     HStack {
-                        CheckBoxView(defaultChecked: todo.done, onToggle: {
-                            todo.toggle(context: moc)
-                        })
+//                        CheckBoxView(defaultChecked: todo.done, onToggle: {
+//                            todo.toggle(context: moc)
+//                        })
                         if todo.title != nil {
                             Text(todo.title!)
                                 .onTapGesture {
@@ -50,11 +50,12 @@ struct ListItemView: View {
                 
                 Spacer()
                 
-                Image(systemName: "trash")
-                    .onTapGesture {
-                        deleteTodo(object: todo)
-                    }
+//                Image(systemName: "trash")
+//                    .onTapGesture {
+//                        deleteTodo(object: todo)
+//                    }
             }
+            .padding(.horizontal, 10)
             Divider()
         }
     }

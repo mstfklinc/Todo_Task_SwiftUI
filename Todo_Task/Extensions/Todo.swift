@@ -15,6 +15,8 @@ extension Todo{
         newTodo.group = group
         newTodo.id = UUID()
         newTodo.title = "Some Todo"
+        newTodo.color = "#2f42d6"
+        newTodo.systemIcon = "list.bullet.circle.fill"
         newTodo.createdAt = Date()
         newTodo.doDate = Date()
         
